@@ -74,3 +74,7 @@ exibirNota('10');
 // alias
 type Funcionarios = Array<string> | number | boolean
 const funcionarios: Funcionarios = ['Victor', 'Fulano', 'Cicrano'];
+
+//type assertion
+const minhaIdade: any = 23;
+(minhaIdade as number).toString();
