@@ -62,3 +62,15 @@ function erro(mensagem: string): never {
 function falha() {
     return erro('algo deu errado');
 }
+
+// union types
+const nota: string | number = 5;
+
+function exibirNota(nota: number | string) {
+    console.log(`A nota é essa ${nota}`)
+}
+exibirNota('10');
+
+// alias
+type Funcionarios = Array<string> | number | boolean
+const funcionarios: Funcionarios = ['Victor', 'Fulano', 'Cicrano'];
