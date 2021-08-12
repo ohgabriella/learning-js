@@ -8,5 +8,5 @@
 # Para gerar o arquivo tsconfig
    - tsc --init
 
-# Para que o arquivo ts possa ser executado
+# Para compilar em um arquivo JS 
    - tsc 
